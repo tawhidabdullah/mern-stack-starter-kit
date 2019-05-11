@@ -1,0 +1,29 @@
+.sub_menu{
+	position: absolute;
+	background: #2c2c2c;
+	width: 100%;
+	left: 0;
+	top: 60px;
+	padding: 25px 15px;
+	display: flex;
+	justify-content: space-around;
+	visibility: hidden;
+	line-height: 24px;
+}
+
+
+
+.mega_menu ul li:hover .sub_menu{
+	visibility: visible;
+}
+
+
+.mega_menu ul li .sub_menu p{
+	color: #fff;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.mega_menu ul li .sub_menu h4{
+	color: #ca914e;
+}
